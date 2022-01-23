@@ -1,6 +1,7 @@
 sudo apt update
 sudo apt upgrade
 sudo dpkg --add-architecture i386
+sudo apt install steam
 wget -nc https://dl.winehq.org/wine-builds/winehq.key
 sudo apt-key add winehq.key
 sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main' -y
@@ -19,4 +20,3 @@ pip install protonup
 echo "export PATH=$PATH:~/.local/bin" >> .bashrc
 source .bashrc
 protonup
-sudo apt install kde-plasma-desktop -y
