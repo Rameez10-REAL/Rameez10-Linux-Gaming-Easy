@@ -1,3 +1,4 @@
+/bin/bash
 sudo apt update
 sudo apt upgrade #Updates your system
 sudo dpkg --add-architecture i386 #adds 32bit support
