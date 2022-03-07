@@ -7,4 +7,4 @@ Install by running these commands
 sudo apt install git
 git clone https://github.com/Rameez10-REAL/Rameez10-Linux-Gaming-Easy
 cd Rameez10-Linux-Gaming-Easy
-sudo ./install.sh
+sudo ./Install.sh
