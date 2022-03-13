@@ -4,7 +4,4 @@ Video about it https://www.youtube.com/watch?v=dzdeug4_FFk
 
 Install by running these commands 
 
-sudo apt install git
-git clone https://github.com/Rameez10-REAL/Rameez10-Linux-Gaming-Easy
-cd Rameez10-Linux-Gaming-Easy
-sudo ./Install.sh
+git clone https://github.com/Rameez10-REAL/Rameez10-Linux-Gaming-Easy && cd Rameez10-Linux-Gaming-Easy  && chmod u+x script.sh && ./script.sh
