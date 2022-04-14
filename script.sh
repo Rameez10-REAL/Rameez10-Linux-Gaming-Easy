@@ -25,6 +25,10 @@ sudo apt install golang-go -y
 git clone https://github.com/lawl/NoiseTorch
 cd NoiseTorch
 make
+#Install mangohud
+sudo add-apt-repository ppa:flexiondotorg/mangohud -y
+sudo apt update -y
+sudo apt install mangohud -y
 #The program is in /home/rameez/NoiseTorch/bin/
 #How to install graphics drivers
 xdg-open https://github.com/lutris/docs/blob/master/InstallingDrivers.md
