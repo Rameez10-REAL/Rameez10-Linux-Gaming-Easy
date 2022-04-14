@@ -20,5 +20,11 @@ pip install protonup
 echo "export PATH=$PATH:~/.local/bin" >> .bashrc
 source .bashrc
 protonup
+#IDK Why but I have to compile noisetourch (good for noise suppression)
+sudo apt install golang-go -y
+git clone https://github.com/lawl/NoiseTorch
+cd NoiseTorch
+make
+#The program is in /home/rameez/NoiseTorch/bin/
 #How to install graphics drivers
 xdg-open https://github.com/lutris/docs/blob/master/InstallingDrivers.md
