@@ -20,11 +20,7 @@ pip install protonup
 echo "export PATH=$PATH:~/.local/bin" >> .bashrc
 source .bashrc
 protonup
-#IDK Why but I have to compile noisetourch (good for noise suppression)
-sudo apt install golang-go -y
-git clone https://github.com/lawl/NoiseTorch
-cd NoiseTorch
-make
+#This is where noisetourch would be installed if there was not some things that happpend to it. Check out https://github.com/lawl/NoiseTorch/blob/main/README.md for context
 #Install mangohud
 sudo add-apt-repository ppa:flexiondotorg/mangohud -y
 sudo apt update -y
